@@ -10,5 +10,5 @@ test('Valid login should succeed', async ({ page }) => {
   await page.fill('#password', '1234');
   await page.click('#loginBtn');
 
-  await expect(page.locator('#message')).toHaveText('Login Successful');
+  await expect(page.locator('#message')).toHaveText('Login Successful1');
 });
